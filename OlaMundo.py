@@ -42,4 +42,12 @@ print("\n")
 print("Lista 3:")
 for i in lista3:
     print(i)
-    
+print("\n")
+
+# ******************************* ESTRUTURAS DE REPETIÇÃO: WHILE *******************************
+z = 1
+
+while z < 10:
+    print(z)
+    z += 1
+print("\n")
