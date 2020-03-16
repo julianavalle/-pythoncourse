@@ -1,6 +1,6 @@
 print("Olá Mundo\n")
 
-# ***************************************** VARIÁVEIS *****************************************
+# ****************************************** VARIÁVEIS ******************************************
 var1 = 1 #Variável Inteira
 var2 = 1.1 #Variável Float
 var3 = "String" #Variável String
@@ -24,7 +24,7 @@ elif y > x:
 else:
     print("Números diferentes\n")
 
-# ******************************* ESTRUTURAS DE REPETIÇÃO: FOR *******************************
+# ********************************* ESTRUTURAS DE REPETIÇÃO: FOR *********************************
 lista1 = [1, 3, 5, 7, 9]
 lista2 = ["olá", "mundo", "!"]
 lista3 = [1, "prato", "de", "trigo", "para", 1, "tigre", "triste", 0.0]
@@ -44,10 +44,23 @@ for i in lista3:
     print(i)
 print("\n")
 
-# ******************************* ESTRUTURAS DE REPETIÇÃO: WHILE *******************************
+# ******************************** ESTRUTURAS DE REPETIÇÃO: WHILE ********************************
 z = 1
 
 while z < 10:
     print(z)
     z += 1
+print("\n")
+
+# ***************************** ESTRUTURAS DE REPETIÇÃO: FOR E RANGE *****************************
+for i in range(10): #Imprime uma lista com 10 elementos de 0 até 9.
+    print(i) 
+print("\n")
+
+for i in range(10, 20): #Imprime uma lista de 10 elementos de 10 até 19.
+    print(i) 
+print("\n")
+
+for i in range(10, 20, 2): #Imprime uma lista de 10 elementos de 10 até 19 de 2 em 2.
+    print(i) 
 print("\n")
