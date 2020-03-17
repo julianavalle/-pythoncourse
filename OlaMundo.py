@@ -64,3 +64,12 @@ print("\n")
 for i in range(10, 20, 2): #Imprime uma lista de 10 elementos de 10 até 19 de 2 em 2.
     print(i) 
 print("\n")
+
+# ******************************************** INPUT ********************************************
+numero = input("Digite um número: ") #input de números
+print("O número digitado é:", numero)
+print("\n")
+
+nome = input("Digite um nome: ") #input de string
+print("Bem-vindo(a)", nome)
+print("\n")
