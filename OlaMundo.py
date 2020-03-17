@@ -66,10 +66,41 @@ for i in range(10, 20, 2): #Imprime uma lista de 10 elementos de 10 até 19 de 2
 print("\n")
 
 # ******************************************** INPUT ********************************************
-numero = input("Digite um número: ") #input de números
+numero = input("Digite um número: ") #Input de números
 print("O número digitado é:", numero)
 print("\n")
 
-nome = input("Digite um nome: ") #input de string
+nome = input("Digite um nome: ") #Input de string
 print("Bem-vindo(a)", nome)
+print("\n")
+
+# ******************************** FUNÇÔES STRINGS - CONCATENAÇÃO ********************************
+a = "Oh"
+b = "Sehun"
+
+concatenar = a + " " + b #Junção de strings
+print("Concatenação:", concatenar)
+print("\n")
+
+tamanho = len(concatenar)
+print("Tamanho da concatenação:", tamanho)
+print("\n")
+
+# *************************** FUNÇÔES STRINGS - NAVEGAÇÂO PELO ÍNDICE **************************
+print(a[0]) #Imprime a primeira posição da string "a"
+print(a[1]) #Imprime a segunda posição da string "a"
+print("\n")
+
+print(b[0]) #Imprime a primeira posição da string "b"
+print(b[1]) #Imprime a segunda posição da string "b"
+print(b[2]) #Imprime a terceira posição da string "b"
+print(b[3]) #Imprime a quarta posição da string "b"
+print(b[4]) #Imprime a quinta posição da string "b"
+print("\n")
+
+# *************************** FUNÇÔES STRINGS - IMPRESSÃO PELO ÍNDICE **************************
+print(concatenar[0:6]) #Imprime do caractér 0 até o 6
+print("\n")
+
+print(concatenar[1:4]) #Imprime do caractér 1 até o 4
 print("\n")
