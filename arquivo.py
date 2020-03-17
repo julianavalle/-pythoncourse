@@ -19,6 +19,5 @@ w.close()
 
 z = open("arquivo.txt", "a") #Todas as vezes que executar irá gravar essa frase no arquivo
 z.write("\nEsse é o novo CORONOVAIRUS") #Escreve no arquivo 2
-
  
 
