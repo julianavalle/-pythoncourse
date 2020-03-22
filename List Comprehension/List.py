@@ -14,7 +14,7 @@ print("Com List Comprehension")
 #b = [valor_a_adicionar laço condição]
 
 a = [1, 2, 3, 4, 5]
-b = [i**2 for i in x]
+b = [i**2 for i in x] 
 c = [i for i in x if i%2 == 1]
 d = [i**2 for i in x if i%2 == 0]
 print(a)
